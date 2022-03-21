@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HOME</title>
+		<link rel="stylesheet" type="text/css" href="nursery.css">
+</head>
+<body>
+	<div class="menu1">
+		<div class="left">
+			SAVE TREES SAVE EARTH
+		</div>
+		<div class="right">
+			<ul >
+			<li><a href="help.html">HELP</a></li>
+			<li><a href="tips.html">TIPS</a></li>
+			<li><a href="aboutus.html">ABOUT US</a></li>
+			<li><a href="more.html">MORE</a></li>
+		</ul>
+		</div>
+	</div>
+	
+<div class="mainh">
+	<img src="logo1.jpg" class="logo" alt="logo">
+	<div class="heading">
+	NURSERY
+	</div>
+	<div></div>
+
+	<div class="yellowbtn">
+	<a href="form1.html"  >
+		<img src="account.png">Login
+	<!-- <input type="button" name="yellow" value="" > -->
+	</a>
+	</div>
+	<div class="shopping">
+		<a href="">
+		<img   src="shopingicon.png">Cart
+		</a>
+	
+	</div>
+	
+</div>
+ 
+<div class="menu2"> 
+	<ul>
+			<li><a href="oxygen.html">Oxygen </a>
+					
+			</li>
+			<li><a href="Medicinal.html">Medicinal</a>
+						
+			</li>
+			<li><a href="flowering.html">Flowering </a>
+				
+			</li>
+			<li><a href="fruiting.html">Fruiting</a>
+					
+			</li>
+			<li><a href="bonsai.html">Bonsai</a>
+					
+			</li>
+			<li><a href=""> Big Shadow</a></li>
+			<li><a href="">Road side </a></li>
+			<li><a href="">Hanging</a></li>
+			<li><a href="">Special</a></li>
+
+	</ul>
+</div>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  
+ <a href=""> <img src="snakeplant1.jpg" class="photo"></a>
+  <!-- <div class="text">Caption Text</div> -->
+</div>
+
+<div class="mySlides fade">
+  
+ <a href=""><img src="bg3.jpg" class="photo"></a> 
+  <!-- <div class="text">Caption Two</div> -->
+</div>
+
+<div class="mySlides fade">
+ 
+  <a href=""><img src="bg2.jpg" class="photo"></a>
+  <!-- <div class="text">Caption Three</div> -->
+</div>
+<div class="mySlides fade">
+  
+  <a href=""><img src="snakeplant1.jpg" class="photo"></a>
+  <!-- <div class="text">Caption 4</div> -->
+</div>
+<div class="mySlides fade">
+  
+  <a href=""><img src="bg2.jpg" class="photo"></a>
+  <!-- <div class="text">Caption 5</div> -->
+</div>
+
+
+</div>
+
+
+<div  class="dot1" >
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+<script>
+var slideIndex =0;
+showSlides();
+
+
+function showSlides() 
+{
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  		for (i=0; i<slides.length; i++) 
+  			{
+   				 slides[i].style.display = "none";  
+  			}
+  		slideIndex++;
+  			if (slideIndex > slides.length) {slideIndex = 1}    
+  		for (i=0; i < dots.length; i++)
+  			{
+   				 dots[i].className = dots[i].className.replace(" active", "");
+  			}
+ 		 slides[slideIndex-1].style.display = "block";  
+  		 dots[slideIndex-1].className += " active";
+  		setTimeout(showSlides, 2500); // Change image every 2 seconds
+}
+</script>
+<!-- <div >
+	<a href="">
+	<img src="snakeplant1.jpg" class="photo">
+	</a>
+</div> -->
+<!-- <hr class="hr1"> -->
+		<div   class="best">Best Selling Plants </div>
+
+<div>
+		<table cellspacing="10px" class="trend">
+			<tr class="trend1">
+				<td class="trend2" >
+					<input type="button" value="Save 33%" class="btnt1">
+					<a href="offer1.html">
+						<img class="img21" src="oxy4.jpg">
+						<p class="txt1" >₹1491</p>
+						<p class="txt2">₹999</p>
+						<p class="txt3" >World Environment Day Special</p>
+					</a>
+				</td>
+				<td class="trend2">
+					<input type="button" value="Save 33%" class="btnt1">
+					<a href="offer2.html">
+						<img class="img22"src="oxy3.jpg">
+						<p class="txt1">₹ 1,193</p>
+						<p class="txt2">₹ 799</p>
+						<p class="txt3">Set of 3 Outdoor Flowering Plants</p>
+					</a>
+				</td>
+			
+				<td class="trend2" >
+					<input type="button" value="Save 30%" class="btnt1">
+					<a href="offer3.html">
+						<img class="img23"src="img4.jpg">
+						<p class="txt1">₹1641</p>
+						<p class="txt2">₹1149</p>
+						<p class="txt3" >Set of 5 Beautiful Dianthus <br>Plants<br></p>
+					</a>
+				</td>
+				<td class="trend2">
+					<input type="button" value="Save 29%" class="btnt1">
+					<a href="offer4.html">
+						<img class="img24" src="oxy1.jpg">
+						<p class="txt1">₹1,356</p>
+						<p class="txt2">₹949</p>
+						<p class="txt3">Best 4 plants to Kill Indoor <br >Pollution<br></p>
+					</a>
+				</td>	
+				
+				<td class="trend2">
+					<input type="button" value="Save 32%" class="btnt1">
+					<a href="offer5.html">
+						<img class="img25"src="oxy.jpg">
+						<p class="txt1">₹1,605</p>
+						<p class="txt2">₹1,099</p>
+						<p class="txt3">Top 4 Plants For Healthy<br>Homes<br></p>
+					</a>
+				</td>
+			</tr>
+		
+		</table>
+</div>
+<div class="new">
+	What's New
+</div>
+	
+<div class="new1">
+	<table >
+		 
+			<tr >
+				
+				<img src="aliving.0.jpg"class="nimg1">
+				<a href="gifts1.html"><input type="button" value="Shop Now" class="btn1"></a>
+				<a href="gifts.html"><input type="button" value="Shop Now" class="btn2"></a>
+				<img  src="seed.jpg"class="nimg1">
+			</tr>
+		
+			<tr>
+				<a href="miniature.html"><input type="button" value="Shop Now" class="btn21"></a>
+				<img src="amini.0.jpg" class="nimg2">
+				<a href="organic.html"><input type="button" value="Shop Now" class="btn22"></a>
+				<img src="tomato.jpg" class="nimg2">
+				<a href="eventgifts.html"><input type="button" value="Shop Now" class="btn23"></a>
+				<img src="gift.jpg" class="nimg2">
+			</tr>
+	</table>
+</div>
+<div class="new">
+	Trending
+	
+</div>
+<div>
+	<table class="circle">
+		
+		<tr >
+			<td><a href="bonsai.html"><img src="bonsai1.jpg"class="cimg1"></a></td>
+			<td><a href="pots.html"><img src="pot1.jpg" class="cimg1"></a></td>
+			<td><a href="kokedama.html"><img src="kokedama1.jpg" class="cimg1"></a>	</td>
+			<td><a href="equipments.html"><img src="can1.jpg" class="cimg1"></a></td>	
+		</tr>
+		<tr class="name">
+			<td><a href="bonsai.html">Bonsai Plants</a></td>
+			<td><a href="pots.html">Ceramic Pots </a> </td>  
+			<td><a href="kokedama.html">Kokedama Plants </a> </td>
+			<td><a href="equipments.html">Garden Equipments</a> 	</td>	
+		</tr>
+	</table>
+</div>
+<div class="new">
+	Garden Decor & Care
+</div>
+<div class="simg">
+	<table >
+		<tr>
+		<a href="planters.html"><img src="tools21.jpg" class="cimg"></a>
+		<a href="soil.html"><img src="tools1.jpg" class="cimg"></a>
+		<a href="pebbles.html"><img src="tools31.jpg" class="cimg"></a>
+		<a href="equipments.html"><img src="tools41.jpg" class="cimg"></a>
+		</tr>
+	</table>
+</div>
+
+<footer  class="footer">
+	
+	<div >@ Design & Created by Aditya Jadhav & Sanjeev Kulkarni <br>
+		<p class="ftxt">Address : Kolhapur-416007.    Contact :<a href=""> 0231-12345</a></p>
+		<p class="ftxt">	All Rights Are Reserved.</p>
+	</div>
+
+
+</footer>
+</body>
+</html>
